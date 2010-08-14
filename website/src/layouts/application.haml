@@ -1,0 +1,34 @@
+!!! 5
+%html
+  %head
+    %title Overlake 5K: Race Against HIV/AIDS
+    = stylesheets
+    <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    try {
+    var pageTracker = _gat._getTracker();
+    pageTracker._trackPageview();
+    } catch(err) {}</script>
+  %body>
+    .frame
+      .null-line-height>
+        %div{ :style => 'width: 836px; height: 260px; background: url(images/heading.jpg) repeat-x' }
+        /
+          %img{:src => 'images/heading.jpg', :width => 836, :height => 260}>
+      .nav
+        = link_to 'Home', 'index.html'
+        = link_to 'Event Details', 'details.html'
+        = link_to 'Our Mission', 'mission.html'
+        = link_to 'Our Sponsors', 'sponsors.html'
+        -# = link_to 'Become a Sponsor', 'sponsor.html'
+        = link_to 'Auction Items', 'auction.html'
+        = link_to 'Contact Us', 'contact.html'
+      .content
+        = yield
+      -#
+        .footer
+          %hr{:width => '800', :noshade => :noshade, :size => 1}
+    .framebottom
