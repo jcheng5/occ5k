@@ -2,6 +2,8 @@
 %html
   %head
     %title Overlake 5K: Race Against HIV/AIDS
+    <script type="text/javascript" src="http://use.typekit.com/dkg1ktv.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     = stylesheets
     <script type="text/javascript">
     var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
@@ -15,20 +17,20 @@
   %body>
     .frame
       .null-line-height>
-        %div{ :style => 'width: 836px; height: 260px; background: url(images/heading.jpg) repeat-x' }
-        /
-          %img{:src => 'images/heading.jpg', :width => 836, :height => 260}>
+        %div{ :style => 'position: relative; width: 836px; height: 260px; background: url(images/heading.jpg) repeat-x' }
+          %a(href="http://www.realitysports.org/" target="_blank" style="display: block; position: absolute; right: 40px; width: 68px; top: 70px; height: 80px;")
+            %br
       .nav
         = link_to 'Home', 'index.html'
-        = link_to 'Event Details', 'details.html'
-        = link_to 'Our Mission', 'mission.html'
-        = link_to 'Our Sponsors', 'sponsors.html'
-        -# = link_to 'Become a Sponsor', 'sponsor.html'
-        = link_to 'Auction Items', 'auction.html'
+        = link_to 'Race Details', 'details.html'
+        = link_to 'The Causes', 'causes.html'
+        -# = link_to 'Our Sponsors', 'sponsors.html'
+        = link_to 'Become a Sponsor', 'sponsor.html'
+        -# = link_to 'Auction Items', 'auction.html'
         = link_to 'Contact Us', 'contact.html'
       .content
         = yield
-      -#
         .footer
           %hr{:width => '800', :noshade => :noshade, :size => 1}
+          Questions? Comments? Contact us at <a href="mailto:5Krun@occ.org">5Krun@occ.org</a>!
     .framebottom
