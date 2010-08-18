@@ -1,21 +1,34 @@
-.grid_4(style="background-color: red; margin-top: 30px")
-  %br
-  
 .grid_8
-  %h1 Overlake 5K Race Against HIV/AIDS
-  %h2 5K Run/Walk &amp; Kids' Fun Run
-  %h3 Presented by <a href="http://www.realitysports.org/" target="_blank">Reality Sports</a>
-  
-  %h4
-    Saturday, October 9, 2010 at 9:00AM
+  %h1(style="margin-bottom: 0") Overlake 5K Race Against HIV/AIDS
+  %h2(style="margin-top: 0") 5K Run/Walk &amp; Kids' Fun Run
+  %h4 Presented by <a href="http://www.realitysports.org/" target="_blank">Reality Sports</a>
+  %h3
+    = link_to 'Register Now!', RegistrationLink
+
+.grid_4(style="color: #777")
+  %h3
+    Saturday
     %br
-    at
+    October 9, 2010
+    %br
+    9:00AM
+  %h4
+    At
     = link_to 'Overlake Christian Church', 'http://www.occ.org/love-god/map--directions/'
     %br
     9900 Willows Road NE
     %br
     Redmond, WA 98052
-  
-  %h3
-    = link_to 'Register Now!', RegistrationLink
 
+.grid_8
+  %p
+    All proceeds from the race will benefit two non-profit organizations, one local and one international, that have demonstrated tremendous effectiveness in dealing with HIV/AIDS.
+    = link_to 'Learn more', 'causes.html'
+.clear
+
+.grid_4
+  %img{:src => 'http://farm3.static.flickr.com/2484/4018484848_36fc812c90_m.jpg', :border => 0, :width => 264, :height => 177}
+.grid_4
+  %img{:src => 'http://farm4.static.flickr.com/3504/4031414368_4d8cbe7d74_m.jpg', :border => 0, :width => 264, :height => 177}
+.grid_4
+  %img{:src => 'http://farm3.static.flickr.com/2762/4031411582_b8ce07bfcd_m.jpg', :border => 0, :width => 264, :height => 177}

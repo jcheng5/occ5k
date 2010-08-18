@@ -25,15 +25,10 @@
         = link_to 'Home', 'index.html'
         = link_to 'Race Details', 'details.html'
         = link_to 'The Causes', 'causes.html'
-        -# = link_to 'Our Sponsors', 'sponsors.html'
         = link_to 'Become a Sponsor', 'sponsor.html'
-        -# = link_to 'Auction Items', 'auction.html'
         = link_to 'About Overlake', 'aboutocc.html'
         = link_to 'Contact Us', 'contact.html'
-      .container_12
+      .container_12(style="padding-bottom: 10px")
         = yield
-        .footer.grid_12
-          %hr{:width => '800', :noshade => :noshade, :size => 1}
-          Questions? Comments? Contact us at <a href="mailto:5Krun@occ.org">5Krun@occ.org</a>!
         .clear
     .framebottom
