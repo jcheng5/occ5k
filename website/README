@@ -1,1 +1,6 @@
-This site uses StaticMatic (http://staticmatic.net)
+This directory contains both the StaticMatic source and HTML/CSS 
+output files for the site. For more information about StaticMatic, 
+see http://staticmatic.net.
+
+This project is hosted on GitHub:
+http://github.com/jcheng5/occ5k
