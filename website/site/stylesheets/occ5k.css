@@ -1,8 +1,8 @@
 /* $sans-family: Lucida Grande, Lucida Sans Unicode, Verdana, Helvetica, Arial, sans-serif */
 body {
-  font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, sans-serif;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
   font-size: 11pt;
-  color: #333;
+  color: #333333;
   background-color: #444236;
   margin-left: auto;
   margin-right: auto;
@@ -13,7 +13,7 @@ body {
 
 .frame {
   min-height: 700px;
-  background-image: url('../images/bg.png');
+  background-image: url("../images/bg.png");
   background-repeat: repeat-y;
   background-position: center;
   width: 836px;
@@ -25,14 +25,14 @@ body {
 .framebottom {
   width: 884px;
   height: 26px;
-  background-image: url('../images/bg_bottom.png');
+  background-image: url("../images/bg_bottom.png");
   background-repeat: none;
   background-position: center;
   margin-left: auto;
   margin-right: auto; }
 
 a {
-  color: #0000A0; }
+  color: #0000a0; }
 
 .content {
   padding: 16px; }
@@ -70,7 +70,7 @@ table.action {
 
 table.action td {
   padding: 12px;
-  border: 2px solid #060; }
+  border: 2px solid #006600; }
 
 h1 {
   font-size: 42px;
