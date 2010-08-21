@@ -3,7 +3,8 @@
 
   %h3 Registration
   %p
-    = link_to 'Register online now!', RegistrationLink
+    %a{ :href => RegistrationLink, :onClick => "recordOutboundLink(this, 'Outbound Links', 'Register');return false;" }
+      Register online now!
   
   %h3 Race Information
   %ul

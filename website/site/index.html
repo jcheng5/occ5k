@@ -16,6 +16,16 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
     </script>
+    <script type="text/javascript">
+    function recordOutboundLink(link, category, action) {
+    try {
+    _gaq.push(['_trackEvent', category, action]);
+    _gaq.push(function () {
+    setTimeout('document.location = "' + link.href + '"', 100);
+    });
+    }catch(err){}
+    }
+    </script>
   </head><body>
     <div class='frame' style='background-color: white'><div class='null-line-height'>
         <div style='position: relative; width: 836px; height: 230px; background: url(images/heading.jpg) repeat-x'>
@@ -57,7 +67,9 @@
         </div>
         <div class='grid_4' style='margin-top: 20px'>
           <h1 style='margin: 0'>
-            <a href="http://www.active.com/register/index.cfm?event_id=1884109">Register Now!</a>
+            <a href='http://www.active.com/register/index.cfm?event_id=1884109' onClick="recordOutboundLink(this, 'Outbound Links', 'Register');return false;">
+              Register Now!
+            </a>
           </h1>
           <p style='color: #777'>
             All proceeds from the race will benefit two non-profit organizations, one local and one international, that have demonstrated tremendous effectiveness in dealing with HIV/AIDS.

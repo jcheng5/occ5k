@@ -21,7 +21,8 @@
 
 .grid_4(style="margin-top: 20px")
   %h1(style="margin: 0")
-    = link_to 'Register Now!', RegistrationLink
+    %a{ :href => RegistrationLink, :onClick => "recordOutboundLink(this, 'Outbound Links', 'Register');return false;" }
+      Register Now!
   %p(style="color: #777")
     All proceeds from the race will benefit two non-profit organizations, one local and one international, that have demonstrated tremendous effectiveness in dealing with HIV/AIDS.
     = link_to 'Learn more', 'causes.html'
