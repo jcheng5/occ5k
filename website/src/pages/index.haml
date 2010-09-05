@@ -4,6 +4,11 @@
       font-size: 30px
     h2
       font-size: 22px
+    h3
+      font-size: 18px
+      margin-bottom: 6px
+    .sponsor
+      margin-bottom: 10px
 
 .grid_8(style="margin-top: 20px")
   %h1(style="margin: 0") Overlake 5K Race Against HIV/AIDS
@@ -18,6 +23,10 @@
     9900 Willows Road NE
     %br
     Redmond, WA 98052
+  .grid_4.alpha
+    %img{:src => 'http://farm3.static.flickr.com/2484/4018484848_36fc812c90_m.jpg', :border => 0, :width => 264, :height => 177}
+  .grid_4.omega
+    %img{:src => 'http://farm3.static.flickr.com/2762/4031411582_b8ce07bfcd_m.jpg', :border => 0, :width => 264, :height => 177}
 
 .grid_4(style="margin-top: 20px")
   %h1(style="margin: 0")
@@ -26,12 +35,10 @@
   %p(style="color: #777")
     All proceeds from the race will benefit two non-profit organizations, one local and one international, that have demonstrated tremendous effectiveness in dealing with HIV/AIDS.
     = link_to 'Learn more', 'causes.html'
-
-.clear
-
-.grid_4
-  %img{:src => 'http://farm3.static.flickr.com/2484/4018484848_36fc812c90_m.jpg', :border => 0, :width => 264, :height => 177}
-.grid_4
-  %img{:src => 'http://farm4.static.flickr.com/3504/4031414368_4d8cbe7d74_m.jpg', :border => 0, :width => 264, :height => 177}
-.grid_4
-  %img{:src => 'http://farm3.static.flickr.com/2762/4031411582_b8ce07bfcd_m.jpg', :border => 0, :width => 264, :height => 177}
+  %h3 Sponsored by
+  .sponsor
+    %a(href="http://www.realitysports.org/" target="_blank")<
+      %img(src="images/logos/realitysports.png" width="200" border="0" alt="Reality Sports")
+  .sponsor
+    %a(href="http://www.bercgroup.com/" target="_blank")<
+      %img(src="images/logos/berc.png" alt="The BERC Group: Baker - Evaluation - Research - Consulting")
