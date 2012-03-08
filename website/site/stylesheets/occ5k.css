@@ -1,4 +1,5 @@
 /* $sans-family: Lucida Grande, Lucida Sans Unicode, Verdana, Helvetica, Arial, sans-serif */
+/* line 3 */
 body {
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
   font-size: 11pt;
@@ -9,8 +10,10 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   overflow-x: hidden;
-  line-height: 1.5; }
+  line-height: 1.5;
+}
 
+/* line 19 */
 .frame {
   min-height: 700px;
   background-image: url("../images/bg.png");
@@ -20,8 +23,10 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding-left: 24px;
-  padding-right: 24px; }
+  padding-right: 24px;
+}
 
+/* line 32 */
 .framebottom {
   width: 884px;
   height: 26px;
@@ -29,24 +34,34 @@ body {
   background-repeat: none;
   background-position: center;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+}
 
+/* line 43 */
 a {
-  color: #0000a0; }
+  color: #0000a0;
+}
 
+/* line 46 */
 .content {
-  padding: 16px; }
+  padding: 16px;
+}
 
+/* line 48 */
 .content *:first-child {
-  margin-top: 20px; }
+  margin-top: 20px;
+}
 
+/* line 51 */
 .nav {
   font-size: 9pt;
   background-color: #6e0e0f;
   text-align: center;
   padding: 4px;
-  line-height: 1.3em; }
+  line-height: 1.3em;
+}
 
+/* line 59 */
 .nav a {
   color: white;
   font-weight: bold;
@@ -54,40 +69,61 @@ a {
   text-transform: uppercase;
   margin-left: 15px;
   margin-right: 15px;
-  white-space: nowrap; }
+  white-space: nowrap;
+}
 
+/* line 71 */
 .footer {
   font-size: smaller;
   text-align: center;
-  margin-top: 30px; }
+  margin-top: 30px;
+}
 
+/* line 78 */
 .null-line-height {
-  line-height: 0; }
+  line-height: 0;
+}
 
+/* line 81 */
 table.action {
   margin-top: -20px;
-  border-spacing: 20px; }
+  border-spacing: 20px;
+}
 
+/* line 84 */
 table.action td {
   padding: 12px;
-  border: 2px solid #006600; }
+  border: 2px solid #006600;
+}
 
+/* line 88 */
 h1 {
   font-size: 42px;
-  line-height: 1; }
+  line-height: 1;
+}
 
+/* line 91 */
 h2 {
-  font-size: 30px; }
+  font-size: 30px;
+}
 
+/* line 93 */
 h3 {
-  font-size: 24px; }
+  font-size: 24px;
+}
 
+/* line 95 */
 h4 {
   font-size: 18px;
-  line-height: 1.5em; }
+  line-height: 1.5em;
+}
 
+/* line 99 */
 h1, h2, h3 {
-  font-weight: 600; }
+  font-weight: 600;
+}
 
+/* line 102 */
 h4 {
-  font-weight: 300; }
+  font-weight: 300;
+}
