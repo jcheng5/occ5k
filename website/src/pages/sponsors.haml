@@ -5,9 +5,14 @@
     .logos
       margin-left: 50px
       a
+        display: inline-block
         margin-right: 20px
+        margin-bottom: 20px
       img
+        max-width: 200px
+        max-height: 145px
         vertical-align: middle
+        border: none
 
 .grid_12
   %h1 Our Sponsors
@@ -18,44 +23,23 @@
     Your business can join the fight, too!
     = link_to 'Become a sponsor', 'sponsor.html'
 
-  %h3 Presenting Sponsor
+  %h3 Presenting/Gold Sponsor
   .logos
-    %a(href="http://www.realitysports.org/" target="_blank")<
-      %img(src="images/logos/realitysports.png" border="0" alt="Reality Sports")
-
-  %h3 Gold Sponsor
-  .logos
-    %a(href="http://www.bercgroup.com/" target="_blank")<
-      %img(src="images/logos/berc.png" border="0" alt="The BERC Group: Baker - Evaluation - Research - Consulting")
-
-  %h3 Silver Sponsor
-  .logos
-    %a(href="http://www.uhc.com" target="_blank")<
-      %img(src="images/logos/unitedhealthcare.jpg" border="0" alt="United Heathcare")
+    %a(href="http://www.cintas.com/" target="_blank")<
+      %img(src="images/logos/cintas.jpg" alt="CINTAS")
 
   %h3 Bronze Sponsors
   .logos
-    %a(href="http://seattle.citysearch.com/profile/47566799/snohomish_wa/summit_dental.html" target="_blank")<
-      %img(src="images/logos/summitdental.jpg" border="0" alt="Summit Dental - Caring Family Dentistry")
-    %a(href="http://www.coloniallife.com" target="_blank")<
-      %img(src="images/logos/coloniallife.jpg" border="0" alt="Colonial Life - Making Benefits Count")
-    %a(href="images/logos/abba.jpg " target="_blank")<
-      %img(src="images/logos/abba.png" border="0" alt="Abba &amp; Sons")
-    %a(href="http://www.brunerortho.com/" target="_blank")<
-      %img(src="images/logos/bruner.png" border="0" alt="Bruner Orthodontics - Compassionate Hearts, Outstanding Results")
-    %a(href="http://www.thrivecommunityfitness.com/" target="_blank")<
-      %img(src="images/logos/thrivefit.png" border="0" alt="Thrive Community Fitness")
-
-
-.grid_12
-  %h3 In-Kind Sponsors
-  .grid_6.alpha
-    %a(href="http://www.achievingwellness.net/locations/redmond/" target="_blank")<
-      %img(src="images/logos/thrive2.png" border="0" alt="Thrive Chiropractic")
-    %br
-    Thrive Chiropractic will be there the day of the race offering complimentary massages and stretching for race participants!
-  .grid_6.omega
+    / Arena Sports
+    / Blaze Timing & Events LLC
+    %a(href="http://www.goldsgym.com/" target="_blank")<
+      %img(src="images/logos/golds.png" alt="Gold's Gym")
+    / Pacific Pro Audio
+    %a(href="http://www.pricebrothersgarage.net/" target="_blank")<
+      %img(src="images/logos/pricebros.jpg" alt="Price Brothers Garage")
+    %a(href="http://www.realitysports.org/" target="_blank")<
+      %img(src="images/logos/realitysports.png" alt="Reality Sports")
+    %a(href="http://www.seattlebellevuechiropractor.com/" target="_blank")<
+      %img(src="images/logos/tierone.jpg" alt="Tier One Chiropractic")
     %a(href="http://trifreaks.com" target="_blank")<
-      %img(src="images/logos/trifreaks.jpg" border="0" alt="TriFREAKS" style="margin-top: 46px")
-    %br
-    Thank you to TriFREAKS for donating the course equipment!
+      %img(src="images/logos/trifreaks.jpg" alt="TriFREAKS")
